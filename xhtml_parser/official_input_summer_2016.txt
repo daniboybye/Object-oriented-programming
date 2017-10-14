@@ -1,0 +1,21 @@
+> open MyTest1.txt
+> open MyTest.xhtml
+> open MyTest1.xhtml
+> print
+> find link
+> find div
+> erase html/head/link/script
+> erase html/head/link
+> erase html/head/script
+> create html/body/header <li><bold>My project is <br />the best</bold></li>
+> within html/body/header/li/bold
+> add #logo <mytag favorite assistant="Ivan Filipov" color="white" >Vanaka</mytag>
+> within html/body/a/mytag
+> save as output1.xhtml
+> close
+no
+> open MyTest2.xhtml
+> find h3
+> save as absoluteCoincidesWithMyTest2.xhtml
+> exit
+no
